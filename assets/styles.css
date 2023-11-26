@@ -1,0 +1,70 @@
+/* Sección de contactos */
+.chat  {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border: #BEC1BB solid 1px;
+    padding: 20px;
+    height: 40px;
+    width: 200px;
+    text-align: left;
+}
+.chat p.activa-ahora {
+    color: #BEC1BB; 
+    font-size: 10px; 
+}
+.chat i {
+    margin-left: 10px; 
+}
+.chat-btn {
+    border: #BEC1BB solid 1px;
+    padding: 25px 20px 25px 20px;
+}
+.btn{
+    background-color: #A491D2;
+    color:#FFF;
+    text-align: center;
+    padding: 10px;
+    margin: 25px 20px;
+}
+.fotos{
+    border-radius: 50%;
+    width: 40px;
+    margin-right: 10px;
+}
+.contenido-chat {
+    flex-grow: 1;
+}
+h5, p {
+    margin: 0px;
+}
+P {
+    font-size: 11px;
+}
+.contactos {
+    margin: 0px; 
+}
+
+/* Sección principal */
+.principal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: #E8EBE4;
+    margin: 0px;
+    padding: 200px 400px;
+}
+.manos{
+    border-radius: 10px;
+    width: 300px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Contenedor de contactos + mensajeria */
+.mensajeria {
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+    margin: 0px;
+}
